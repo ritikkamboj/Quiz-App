@@ -1,0 +1,92 @@
+ [
+  {
+    "question": "Which method is used to convert JSON data to a JavaScript object?",
+    "answerOptions": [
+      { "text": "JSON.stringify()", "isCorrect": false },
+      { "text": "JSON.parse()", "isCorrect": true },
+      { "text": "JSON.toObject()", "isCorrect": false },
+      { "text": "JSON.convert()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What does the '===' operator do in JavaScript?",
+    "answerOptions": [
+      { "text": "Assigns a value", "isCorrect": false },
+      { "text": "Compares value and type", "isCorrect": true },
+      { "text": "Compares only value", "isCorrect": false },
+      { "text": "Checks for null", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which function is used to delay execution in JavaScript?",
+    "answerOptions": [
+      { "text": "setInterval()", "isCorrect": false },
+      { "text": "setTimeout()", "isCorrect": true },
+      { "text": "setDelay()", "isCorrect": false },
+      { "text": "delay()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "answerOptions": [
+      { "text": "const", "isCorrect": true },
+      { "text": "let", "isCorrect": false },
+      { "text": "var", "isCorrect": false },
+      { "text": "constant", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the output of `typeof null` in JavaScript?",
+    "answerOptions": [
+      { "text": "'null'", "isCorrect": false },
+      { "text": "'undefined'", "isCorrect": false },
+      { "text": "'object'", "isCorrect": true },
+      { "text": "'boolean'", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which of the following is **not** a JavaScript data type?",
+    "answerOptions": [
+      { "text": "Number", "isCorrect": false },
+      { "text": "String", "isCorrect": false },
+      { "text": "Float", "isCorrect": true },
+      { "text": "Boolean", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you define an arrow function?",
+    "answerOptions": [
+      { "text": "() => {}", "isCorrect": true },
+      { "text": "function => {}", "isCorrect": false },
+      { "text": "func() => {}", "isCorrect": false },
+      { "text": "=> function()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which method adds one or more elements to the end of an array?",
+    "answerOptions": [
+      { "text": "push()", "isCorrect": true },
+      { "text": "pop()", "isCorrect": false },
+      { "text": "shift()", "isCorrect": false },
+      { "text": "unshift()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which event is fired when a form is submitted?",
+    "answerOptions": [
+      { "text": "onClick", "isCorrect": false },
+      { "text": "onSubmit", "isCorrect": true },
+      { "text": "onChange", "isCorrect": false },
+      { "text": "onInput", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What does the 'this' keyword refer to in a regular function?",
+    "answerOptions": [
+      { "text": "The global object", "isCorrect": true },
+      { "text": "The function itself", "isCorrect": false },
+      { "text": "The parent function", "isCorrect": false },
+      { "text": "The window's event listener", "isCorrect": false }
+    ]
+  }
+]
