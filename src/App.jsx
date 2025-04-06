@@ -7,12 +7,15 @@ import Results from "./components/Results";
 function App() {
   const [currQuestion, setCurrQuestion] = useState(0);
   const [userAns, setUserAns] = useState([]);
+  const [ansSelected , setAnsSelected] = useState([]);
 
-  const handleNextQuestion = (data) => {
+  const handleNextQuestion = (data, selected) => {
     setCurrQuestion(currQuestion + 1);
     setUserAns([...userAns, data]);
+    setAnsSelected([...ansSelected, selected])
 
     console.log(userAns);
+    console.log(ansSelected)
   };
 
   const reset = () => {
