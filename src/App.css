@@ -1,6 +1,9 @@
 .app {
   font-family: sans-serif;
   text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
 }
 
 .list {
@@ -15,8 +18,44 @@
   gap: 10px;
 }
 .button {
-  padding: 5px;
+  padding: 10px 12px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  font-size: 15px;
+}
+
+.resList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.opList {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.span {
+  text-decoration: underline;
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.spanLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.resList li[data-correct="true"] {
+  color: green;
+}
+
+.resList li[data-correct="false"] {
+  color: red;
 }

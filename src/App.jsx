@@ -30,7 +30,10 @@ function App() {
           onAnsClick={handleNextQuestion}
         />
       )}
-      <Results userAns={userAns} questions={Questions} reset={reset} />
+
+      {userAns.length === Questions.length && (
+        <Results userAns={userAns} questions={Questions} reset={reset} />
+      )}
     </div>
   );
 }
