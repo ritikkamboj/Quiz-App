@@ -11,7 +11,7 @@ function Results({ userAns, questions, reset }) {
       <div className="spanLine"> <p> Only {length} are correct from all {questions.length} questions</p> <span className="span" onClick={reset}>Click here to reset</span></div>
       </div>
       <ul className="resList">
-        {questions.map((question, index)=> <li data-correct={userAns[index]} key={question.question}>{index+1}. {question.question}</li>)}
+        {questions.map((question, index)=> <li data-correct={userAns[index]} key={question.question}>{index+1}. {question.question}<br/> Ans. {question.answerOptions.map((opt)=> opt.isCorrect===true && opt.text)}</li>)}
       </ul>
     </div>
   );
